@@ -29,10 +29,12 @@
             <h2><span>Inscreva-se agora</span></h2>
             <h2>na Newslatter</h2>
             <p>A história de Dragon Ball começa com Son Goku, um garoto ingênuo e puro com cauda de macaco e uma força extraordinária. Ele mora sozinho após a morte de seu avô adotivo em uma montanha chamada Paozu.</p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="submit" value="Enviar >">
+            <form method="post" action="index.php">
+                <input type="text" placeholder="Nome" name="nome">
+                <input type="email" placeholder="E-mail" name="email">
+                <input type="text" placeholder="Telefone" name="telefone">
+                <input type="submit" value="Enviar >" name="enviar">
+                
             </form>
         </aside>
         <article>
